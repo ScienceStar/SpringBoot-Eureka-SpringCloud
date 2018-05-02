@@ -1,0 +1,6 @@
+com\bean\User.class
+com\bean\Role.class
+com\action\UserController.class
+com\ApplicationControl.class
+com\configution\MVCConfiguration.class
+com\bean\Department.class

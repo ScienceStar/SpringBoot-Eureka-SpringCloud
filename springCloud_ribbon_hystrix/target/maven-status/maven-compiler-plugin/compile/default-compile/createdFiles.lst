@@ -1,0 +1,6 @@
+com\Ribbon_Starter.class
+com\entity\Department.class
+com\control\UserControl.class
+com\configuration\MVCConfiguration.class
+com\entity\User.class
+com\entity\Role.class

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springCloud_consumer" />
+        <module name="springCloud_eureka" />
+        <module name="springCloud_feign" />
+        <module name="springCloud_provider" />
+        <module name="springCloud_ribbo_hystrix" />
+        <module name="springCloud_ribbon_hystrix" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringCloud" target="1.8" />
+      <module name="springCloud_consumer" target="1.8" />
+      <module name="springCloud_eureka" target="1.8" />
+      <module name="springCloud_feign" target="1.8" />
+      <module name="springCloud_provider" target="1.8" />
+      <module name="springCloud_ribbo_hystrix" target="1.8" />
+      <module name="springCloud_ribbon_hystrix" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
