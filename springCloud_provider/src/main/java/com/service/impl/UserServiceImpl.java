@@ -28,7 +28,13 @@ public class UserServiceImpl implements UserService {
      */
     @Override
     public User login(String name, String password) {
-        return userRepository.findByNameAndPassword(name, password);
+        User u = userRepository.findByNameAndPassword(name, password);
+        if(u!=null && !u.equals(null) ){
+            System.out.println("Login Succesfull ...........");
+        }else {
+            System.out.println("Login faild ................");
+        }
+        return u;
     }
 
     /**

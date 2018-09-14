@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -45,7 +46,7 @@ public class UserController {
      * ribbon负载均衡测试方法
      * springcloud 将feign和ribbon以及eureka进行了集成
      */
-    @GetMapping("/log-user-service-instance")
+    @PostMapping("/log-user-service-instance")
     public void loguserserviceinstance(){
         ServiceInstance serviceInstance=this.loadBalancerClient.choose("SPRINGCLOUD-PROVIDER");
         logger.info("serviceInstance info ---> serviceId is  "+serviceInstance.getServiceId()+" host is "+serviceInstance.getHost()+"port is "+serviceInstance.getPort() );

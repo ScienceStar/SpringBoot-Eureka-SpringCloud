@@ -15,8 +15,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories
 @ComponentScan(basePackages = {"com"})
 public class ApplicationControl {
-
     public static void main(String[] args) {
-        SpringApplication.run(ApplicationControl.class,args);
+        SpringApplication.run(ApplicationControl.class, args);
     }
 }

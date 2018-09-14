@@ -69,7 +69,7 @@ public class UserControl {
         return userList;
     }
 
-    @GetMapping("user/get/{id}")
+    @GetMapping(value="/user/get/{id}")
     public User get(@PathVariable Long id){
         User u = this.restTemplate.getForObject("http://SPRINGCLOUD-PROVIDER/get/id={1}",User.class,id);
         return u;

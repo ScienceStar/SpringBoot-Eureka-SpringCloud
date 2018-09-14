@@ -36,12 +36,11 @@ public class UserController {
 
     @GetMapping(value = "/login")
     public User login( @RequestParam String name,@RequestParam String password){
-
         User user=userService.login(name,password);
         return user;
     }
 
-    @PostMapping("/register")
+    @PostMapping(value="/register")
     public String register(@ModelAttribute User user){
         User result =userService.register(user);
         return result!=null?"success":"fail";
