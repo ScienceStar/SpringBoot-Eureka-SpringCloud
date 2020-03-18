@@ -71,7 +71,7 @@ public class UserControl {
 
     @GetMapping(value="/user/get/{id}")
     public User get(@PathVariable Long id){
-        User u = this.restTemplate.getForObject("http://SPRINGCLOUD-PROVIDER/get/id={1}",User.class,id);
+        User u = this.restTemplate.getForObject("http://springCloud-provider/get/{1}",User.class,id);
         return u;
     }
 
@@ -81,7 +81,7 @@ public class UserControl {
      */
     @GetMapping("/log-user-service-instance")
     public void logUserServiceInstance(){
-        ServiceInstance serviceInstance=this.loadBalancerClient.choose("SPRINGCLOUD-PROVIDER");
+        ServiceInstance serviceInstance=this.loadBalancerClient.choose("springCloud-provider");
         LOGGER.info("serviceInstance info ---> serviceId is  "+serviceInstance.getServiceId()+" host is "+serviceInstance.getHost()+"port is "+serviceInstance.getPort() );
     }
 
