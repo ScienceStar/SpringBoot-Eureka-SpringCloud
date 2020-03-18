@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bd9d3f0-30a7-4719-b782-6a3bd6b7776e" name="Default" comment="">
+    <list default="true" id="9bd9d3f0-30a7-4719-b782-6a3bd6b7776e" name="Default" comment="" />
+    <list id="b55d791a-b36c-41fe-9445-9b2245a6e259" name="ignoreFiles" comment="忽略提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/logs/SpringCloud-Provider-User-Service/access.log" afterPath="$PROJECT_DIR$/logs/SpringCloud-Provider-User-Service/access.log" />
-      <change beforePath="$PROJECT_DIR$/logs/SpringCloud-Provider-User-Service/access_error.log" afterPath="$PROJECT_DIR$/logs/SpringCloud-Provider-User-Service/access_error.log" />
-      <change beforePath="$PROJECT_DIR$/logs/SpringCloud-Provider-User-Service/access_info.log" afterPath="$PROJECT_DIR$/logs/SpringCloud-Provider-User-Service/access_info.log" />
-      <change beforePath="$PROJECT_DIR$/logs/SpringCloud-Provider-User-Service/access_warn.log" afterPath="$PROJECT_DIR$/logs/SpringCloud-Provider-User-Service/access_warn.log" />
-      <change beforePath="$PROJECT_DIR$/springCloud_eureka/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/springCloud_eureka/src/main/resources/application.properties" />
       <change beforePath="$PROJECT_DIR$/springCloud_eureka/target/classes/application.properties" afterPath="$PROJECT_DIR$/springCloud_eureka/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/springCloud_feign/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/springCloud_feign/src/main/resources/application.properties" />
       <change beforePath="$PROJECT_DIR$/springCloud_feign/target/classes/application.properties" afterPath="$PROJECT_DIR$/springCloud_feign/target/classes/application.properties" />
       <change beforePath="$PROJECT_DIR$/springCloud_feign/target/classes/com/control/UserController.class" afterPath="$PROJECT_DIR$/springCloud_feign/target/classes/com/control/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/springCloud_provider/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/springCloud_provider/src/main/resources/application.properties" />
       <change beforePath="$PROJECT_DIR$/springCloud_provider/target/classes/application.properties" afterPath="$PROJECT_DIR$/springCloud_provider/target/classes/application.properties" />
       <change beforePath="$PROJECT_DIR$/springCloud_provider/target/classes/com/action/UserController.class" afterPath="$PROJECT_DIR$/springCloud_provider/target/classes/com/action/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/springCloud_ribbon_hystrix/src/main/java/com/control/UserControl.java" afterPath="$PROJECT_DIR$/springCloud_ribbon_hystrix/src/main/java/com/control/UserControl.java" />
-      <change beforePath="$PROJECT_DIR$/springCloud_ribbon_hystrix/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/springCloud_ribbon_hystrix/src/main/resources/application.properties" />
       <change beforePath="$PROJECT_DIR$/springCloud_ribbon_hystrix/target/classes/application.properties" afterPath="$PROJECT_DIR$/springCloud_ribbon_hystrix/target/classes/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,21 +77,8 @@
         <entry file="file://$PROJECT_DIR$/springCloud_provider/src/main/java/com/action/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+              <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationControl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springCloud_provider/src/main/java/com/ApplicationControl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding>
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -114,11 +93,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserControl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserControl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springCloud_ribbon_hystrix/src/main/java/com/control/UserControl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="598">
-              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springCloud_eureka/target/classes/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -377,6 +366,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Eureka-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springCloud_eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot-Eureka-SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springCloud_eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
@@ -901,11 +903,12 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9bd9d3f0-30a7-4719-b782-6a3bd6b7776e" name="Default" comment="" />
+      <changelist id="b55d791a-b36c-41fe-9445-9b2245a6e259" name="ignoreFiles" comment="忽略提交" />
       <created>1584499551951</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584499551951</updated>
-      <workItem from="1584499553687" duration="16346000" />
+      <workItem from="1584499553687" duration="16468000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1584500498985</created>
@@ -928,11 +931,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584510785161</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="注册中心服务访问地址添加">
+      <created>1584527440380</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584527440380</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16346000" />
+    <option name="totallyTimeSpent" value="16468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -985,7 +995,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="注册中心服务地址清理" />
-    <option name="LAST_COMMIT_MESSAGE" value="注册中心服务地址清理" />
+    <MESSAGE value="注册中心服务访问地址添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册中心服务访问地址添加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1298,7 +1309,7 @@
     <entry file="file://$PROJECT_DIR$/springCloud_provider/src/main/java/com/action/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+          <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1306,7 +1317,15 @@
     <entry file="file://$PROJECT_DIR$/springCloud_ribbon_hystrix/src/main/java/com/control/UserControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springCloud_eureka/target/classes/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
