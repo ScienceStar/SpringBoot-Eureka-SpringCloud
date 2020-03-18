@@ -10,7 +10,6 @@
         <module name="springCloud_eureka" />
         <module name="springCloud_feign" />
         <module name="springCloud_provider" />
-        <module name="springCloud_ribbo_hystrix" />
         <module name="springCloud_ribbon_hystrix" />
       </profile>
     </annotationProcessing>
@@ -20,7 +19,6 @@
       <module name="springCloud_eureka" target="1.8" />
       <module name="springCloud_feign" target="1.8" />
       <module name="springCloud_provider" target="1.8" />
-      <module name="springCloud_ribbo_hystrix" target="1.8" />
       <module name="springCloud_ribbon_hystrix" target="1.8" />
     </bytecodeTargetLevel>
   </component>
