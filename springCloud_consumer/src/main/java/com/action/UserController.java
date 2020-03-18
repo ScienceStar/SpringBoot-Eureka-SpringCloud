@@ -12,11 +12,11 @@ import org.springframework.web.client.RestTemplate;
  */
 @RestController
 public class UserController {
-    @Autowired
-    private RestTemplate restTemplate;
+    @Autowired private RestTemplate restTemplate;
 
     @GetMapping("user/get/{id}")
     public User get(@PathVariable Long id){
+        User user = this.restTemplate.getForObject("http://127.0.0.1:9996/get/{1}",User.class,id);
 
         return this.restTemplate.getForObject("http://127.0.0.1:9996/get/{1}",User.class,id);
     }

@@ -39,7 +39,9 @@ public class UserController {
 
     @GetMapping("/getUserById")
     public User getUserById(@RequestParam Long id){
-        return userFeignClient.getUserById(id);
+        User user = userFeignClient.getUserById(id);
+        System.out.println(user.getId()+" "+user.getName());
+        return user;
     }
 
     /**
