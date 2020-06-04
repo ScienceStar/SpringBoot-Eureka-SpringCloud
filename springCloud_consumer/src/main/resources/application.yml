@@ -1,0 +1,21 @@
+---
+spring:
+  application:
+    name: springCloud-consumer
+server:
+  port: 9991
+  tomcat:
+    uri-encoding: UTF-8
+security:
+  basic:
+    enabled: false
+  user:
+    password: 314159
+    name: science
+eureka:
+  instance:
+    hostname: 127.0.0.1
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/,http://${eureka.instance.hostname}:9994/eureka/,http://${eureka.instance.hostname}:9995/eureka/

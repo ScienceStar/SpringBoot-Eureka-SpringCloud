@@ -1,0 +1,47 @@
+---
+spring:
+  application:
+    name: springCloud-provider
+  datasource:
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    minIdle: 5
+    validationQuery: SELECT 1 FROM DUAL
+    initialSize: 5
+    maxWait: 60000
+    filters: stat,wall,log4j
+    poolPreparedStatements: true
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://47.106.87.72:3307/mysql?characterEncoding=utf-8&autoReconnect=true&useSSL=false
+    maxPoolPreparedStatementPerConnectionSize: 20
+    password: root
+    testOnBorrow: false
+    testWhileIdle: true
+    minEvictableIdleTimeMillis: 300000
+    timeBetweenEvictionRunsMillis: 60000
+    testOnReturn: false
+    driver-class-name: com.mysql.jdbc.Driver
+    maxActive: 20
+    username: root
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 9996
+security:
+  basic:
+    enabled: false
+  user:
+    password: 314159
+    name: science
+eureka:
+  instance:
+    hostname: 127.0.0.1
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+logging:
+  config: classpath:logback-spring.xml

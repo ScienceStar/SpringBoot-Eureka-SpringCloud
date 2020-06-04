@@ -3,9 +3,16 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springCloud_consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud_consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springCloud_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud_eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springCloud_feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud_feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springCloud_provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud_provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springCloud_ribbon_hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloud_ribbon_hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

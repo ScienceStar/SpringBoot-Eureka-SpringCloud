@@ -1,9 +1,7 @@
-##DataSource Config
-##\u6570\u636e\u5e93\u8fde\u63a5\u6c60\u4fe1\u606f\u914d\u7f6e
 spring.application.name=springCloud-provider
 eureka.instance.prefer-ip-address=true
 eureka.instance.hostname=127.0.0.1
-#eureka ��ʵ������
+
 eureka.client.service-url.defaultZone=http://${eureka.instance.hostname}:8761/eureka/
 spring.datasource.type=com.alibaba.druid.pool.DruidDataSource
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
@@ -49,7 +47,6 @@ spring.jpa.generate-ddl=true
 
 server.port=9996
 
-###eureka server ���ð�ȫ��֤
 security.user.name=science
 security.user.password=314159
 security.basic.enabled=false

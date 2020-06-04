@@ -1,0 +1,33 @@
+---
+spring:
+  application:
+    name: springcloud-consumer-h5-ribbon-hystrix
+server:
+  port: 9994
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 50000
+security:
+  basic:
+    enabled: false
+  user:
+    password: 314159
+    name: science
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+ribbon:
+  ConnectTimeout: 60000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 1
+  ReadTimeout: 60000
+springcloud-provier-user-service:
+  ribbon:
+    NFLoadBalanceRuleClassName: com.netflix.loadbalancer.RandomRule
